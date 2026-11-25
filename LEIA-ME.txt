@@ -1,0 +1,18 @@
+# Raízes do Brasil — Consciência Negra
+
+## Como abrir
+1. Extraia a pasta `consciencia_negra_site`.
+2. Abra a pasta no Visual Studio Code.
+3. Abra o arquivo `index.html` com a extensão **Live Server** (ou dê dois cliques no arquivo para abrir no navegador).
+4. Não mova os arquivos de imagem para fora da pasta `assets`, pois o site usa esses caminhos.
+
+## Como publicar para criar um QR Code
+O QR Code precisa apontar para um endereço público da internet. Um endereço `localhost` ou um arquivo do seu computador só funciona no próprio dispositivo.
+Você pode publicar gratuitamente usando o GitHub Pages:
+1. Crie um repositório no GitHub e envie todos os arquivos desta pasta.
+2. No repositório, entre em **Settings > Pages**.
+3. Em **Build and deployment**, escolha **Deploy from a branch**, selecione `main` e a pasta `/ (root)`, e salve.
+4. Aguarde o endereço público aparecer na página do Pages.
+5. Gere um QR Code usando esse endereço e teste com a câmera do celular antes de imprimir.
+
+O site é estático e não precisa de banco de dados.
